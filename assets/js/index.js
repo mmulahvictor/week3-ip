@@ -8,25 +8,25 @@ function myFunction(){
 
     let result = document.getElementsByClassName("result");
 
-    if (question1 == "A high level language."){
+    if (question1 == "val1"){
         ans++;
     }
 
-    if (question2 == "A high level language."){
+    if (question2 == "val8"){
         ans++;
     }
 
-    if (question3 == "A high level language."){
+    if (question3 == "val10"){
         ans++;
     }
 
-    if (question4 == "A high level language."){
+    if (question4 == "val15"){
         ans++;
     }
 
-    if (question5 == "A high level language."){
+    if (question5 == "val18"){
         ans++;
     }
     
-    document.getElementById("outcome").innerHTML = "You got " + ans + " correct"
+    document.getElementById("outcome").innerHTML = "You got " + (ans/5)*100 +"%" + " correct"
 }
