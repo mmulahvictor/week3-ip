@@ -1,12 +1,24 @@
 body{
-    background-color: rgb(28, 27, 27);
+    background-color: rgb(136, 38, 222);
     margin-left: 50px;
 }
 
+nav{
+    display: flex;
+    background-color: rgb(23,23,23);
+    box-shadow: 0 0 10px 2px goldenrod;
+}
+
+nav > img{
+    height: 90px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 h2{
     text-align: center;
-    margin-left: 550px;
-    margin-right: 550px;
+    margin-left: 500px;
+    margin-right: 500px;
     padding: 10px;
     color: rgb(18, 14, 145);
     background-color: darkorange;
@@ -15,12 +27,14 @@ h2{
 }
 form{
     background-color: cornflowerblue;
+    margin-top: 10px;
     padding: 20px;
     padding-right: 00px;
     width: 700px;
     height: 450px;
     overflow: scroll;
     border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
 }
 .content{
     display: flex;
@@ -32,11 +46,14 @@ form{
     height: 200px;
     background-color: green;
     margin-left: 30px;
+    margin-top: 10px;
     padding: 10px;
     font-size: x-large;
+    box-shadow: 0 0 10px 2px;
 }
 .outcome > h3{
     text-align: center;
+    color: black;
 }
 .button{
     background-color: green;
@@ -44,4 +61,5 @@ form{
     padding: 7px;
     color: white;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
