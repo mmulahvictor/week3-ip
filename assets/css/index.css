@@ -22,11 +22,10 @@ nav > img{
 }
 h2{
     text-align: center;
-    margin-left: 350px;
+    margin-left: 200px;
     margin-right: 500px;
     padding: 10px;
-    color: black;
-    background-color: green;
+    color: blue;
     border-radius: 8px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
