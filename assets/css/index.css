@@ -20,6 +20,7 @@ form{
     width: 700px;
     height: 450px;
     overflow: scroll;
+    border-radius: 10px;
 }
 .content{
     display: flex;
@@ -33,6 +34,9 @@ form{
     margin-left: 30px;
     padding: 10px;
     font-size: x-large;
+}
+.outcome > h3{
+    text-align: center;
 }
 .button{
     background-color: green;
