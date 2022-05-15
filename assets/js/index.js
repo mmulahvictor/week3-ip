@@ -27,21 +27,21 @@ function myFunction(){
     if (question5 == "val18"){
         ans++;
     }
-
+    ans = (ans/5)*100;
     let message = ["Excellently passed", "Fairly passed", "Scored poorly, retake the test"];
     let range;
 
-    if(ans > 80){
-        range = 0;
+    if(ans < 50){
+        range = 2;
     }
-    else if(ans <= 80 && ans >= 50){
+    else if(ans >=50){
         range = 1;
     }
 
     else {
-        range = 2;
+        range = 0;
     }
 
     document.getElementById("message").innerHTML = message[range];
-    document.getElementById("outcome").innerHTML = "You got " + (ans/5)*100 +"%" + " correct";
+    document.getElementById("outcome").innerHTML = "You got " + ans +"%" + " correct";
 }
