@@ -1,12 +1,15 @@
 body{
-    background-color: rgb(136, 38, 222);
-    margin-left: 50px;
+    background-color: gray;
+    margin-left: 150px;
+    margin-right: 130px;
+    border: olid red;
 }
 
 nav{
     display: flex;
     background-color: rgb(23,23,23);
     box-shadow: 0 0 10px 2px goldenrod;
+    margin-right: 20px;
 }
 
 nav > img{
@@ -17,13 +20,16 @@ nav > img{
 }
 h2{
     text-align: center;
-    margin-left: 500px;
+    margin-left: 350px;
     margin-right: 500px;
     padding: 10px;
-    color: rgb(18, 14, 145);
-    background-color: darkorange;
+    color: black;
+    background-color: green;
     border-radius: 8px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    display: flex;
 }
 form{
     background-color: cornflowerblue;
@@ -36,9 +42,7 @@ form{
     border-radius: 10px;
     box-shadow: 0 0 10px 2px;
 }
-.content{
-    display: flex;
-}
+
 .outcome{
     color: white;
     border-radius: 10px;
