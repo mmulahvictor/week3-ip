@@ -15,7 +15,7 @@
 
 ## Description
 
-    <p>This project is a web application for after-school computer club. The club is finishing a course on Javascript and the students will have to take a test before completing. The school has therefore decided to create a website on which students can take the test. They will answer the multiple choice questions on the website, which they'll have created and after submitting their answers, they know what they scored on the website.</p>
+    This project is a web application for after-school computer club. The club is finishing a course on Javascript and the students will have to take a test before completing. The school has therefore decided to create a website on which students can take the test. They will answer the multiple choice questions on the website, which they'll have created and after submitting their answers, they know what they scored on the website.
 
 ## Features
 
